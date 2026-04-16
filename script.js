@@ -45,7 +45,7 @@ artists.forEach((artist, index) => {
 const card = document.createElement("div");
 card.className = "card";
 
-```
+
 const img = artist.images[0]?.url || "";
 card.innerHTML = `
   <img src="${img}">
@@ -54,7 +54,6 @@ card.innerHTML = `
 
 container.appendChild(card);
 
-// Popmotion decay animation
 const { decay } = window.popmotion;
 
 decay({
