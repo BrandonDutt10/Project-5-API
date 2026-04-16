@@ -1,5 +1,5 @@
-const CLIENT_ID = "YOUR_CLIENT_ID";
-const CLIENT_SECRET = "YOUR_CLIENT_SECRET";
+const CLIENT_ID = "56feebe97d9943f2a65bb0b3f5f397fd";
+const CLIENT_SECRET = "df0c82541ab8487d89c04e6892e9b3bf";
 
 const searchBtn = document.getElementById("searchBtn");
 
